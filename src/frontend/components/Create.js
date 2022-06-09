@@ -71,7 +71,7 @@ const Create = ({ marketplace, nft }) => {
                 <Form.Control onChange={(e) => setPrice(e.target.value)} size="lg" required type="number" placeholder="Price in ETH" />
                 <div className="d-grid px-0">
                   <Button onClick={createNFT} variant="primary" size="lg">
-                    Create & List NFT!
+                    Создать и разместить NFT!
                   </Button>
                 </div>
               </Row>

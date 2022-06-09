@@ -52,7 +52,7 @@ function App() {
         { loading ? (
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh'}}>
             <Spinner animation="border" style={{ display: 'flex' }} />
-            <p className='mx-3 my-0'>Awaiting MetaMask Connection...</p>
+            <p className='mx-3 my-0'>Ожидание подкючения  к MetaMask...</p>
           </div>
         ) : (
           <Routes>

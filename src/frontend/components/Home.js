@@ -45,7 +45,7 @@ const Home = ({ marketplace, nft }) => {
 
     if (loading) return (
         <main style={{ padding: "1rem 0" }}>
-        <h2>Loading...</h2>
+        <h2>Загрузка...</h2>
         </main>
     )
 
@@ -78,7 +78,7 @@ const Home = ({ marketplace, nft }) => {
                 </div>
             : (
                 <main style={{ padding: "1rem 0" }}>
-                    <h2>No listed assets</h2>
+                    <h2>Нет размещенных лотов</h2>
                 </main>
             )}
         </div>

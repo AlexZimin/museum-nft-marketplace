@@ -12,7 +12,7 @@ function renderSoldItems(items) {
             <Card>
               <Card.Img variant="top" src={item.image} />
               <Card.Footer>
-                For {ethers.utils.formatEther(item.totalPrice)} ETH - Recieved {ethers.utils.formatEther(item.price)} ETH
+                За {ethers.utils.formatEther(item.totalPrice)} ETH - Получено {ethers.utils.formatEther(item.price)} ETH
               </Card.Footer>
             </Card>
           </Col>
@@ -64,7 +64,7 @@ export default function MyListedItems({ marketplace, nft, account }) {
   }, [])
   if (loading) return (
     <main style={{ padding: "1rem 0" }}>
-      <h2>Loading...</h2>
+      <h2>Загрузка...</h2>
     </main>
   )
   return (
@@ -86,7 +86,7 @@ export default function MyListedItems({ marketplace, nft, account }) {
         </div>
         : (
           <main style={{ padding: "1rem 0" }}>
-            <h2>No listed assets</h2>
+            <h2>Нет размещенных лотов</h2>
           </main>
         )}
     </div>
